@@ -5,17 +5,17 @@ date: "1/10/2020"
 output: html_document
 ---
 
-#Codebook
+# Codebook
 
-##Tidy Dataset
+## Tidy Dataset
 The tidy data set is located on your working directory after the script run_analysis.R is executed. The name of the tidy Dataset is called tidyDataSet.txt
 *Dataset dimensions <- 180 rows X 82 columns
-*Columns
-+First: Subject: This column refers to the person who uses the device.
-+Second: Activity: Six different activities to be measured (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying) 
-+Other: The other columns show data about accelerometer and gyroscope information. Specifically, the mean and the standard deviation.
+* Columns
++ First: Subject: This column refers to the person who uses the device.
++ Second: Activity: Six different activities to be measured (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying) 
++ Other: The other columns show data about accelerometer and gyroscope information. Specifically, the mean and the standard deviation.
 
-##Data transformation
+## Data transformation
 1. The different files were analyzed to identify which of them were necessary to work with. The files selected were those related with: Train data, test data, activity labels, and features labels.
 2. Train data: loaded into r and combined by columns – 3 different data set.
 3. Test data: loaded into r and combined by columns - 3 different data set.
