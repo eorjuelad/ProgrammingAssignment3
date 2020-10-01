@@ -14,4 +14,4 @@ Here are the data for the project:
 ## **Steps to use the script**  
 1.	Download the data set. This file must be decompressed and be located on your working directory. Please do not change any change to this file or subfiles.
 2.	Execute the script run_analysis.R
-3.	The execution of this script creates a data set called tidyDataSet. The new data set will be located on your working directory,
+3.	The execution of this script creates a data set called tidyDataSet. The new data set will be located on your working directory.
